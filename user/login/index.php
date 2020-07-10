@@ -1,8 +1,8 @@
 <?php
 
-include "../config.php";
-include "validator.php";
-include "message.php";
+include "../../config.php";
+include "../validator.php";
+include "../../models/message.php";
 
 $user_name = input_validator($_GET["user_name"]);
 $user_password = input_validator($_GET["user_password"]);

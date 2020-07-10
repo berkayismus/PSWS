@@ -12,12 +12,12 @@ class User {
     
 
 
-    /*function getUserID(){
+    function getUserID(){
         return $this->user_id;
     }
 
     function setUserID($user_id) { 
-    $this->user_id = $user_id;
+        $this->user_id = $user_id;
     }
 
     function getUserName(){
@@ -58,7 +58,7 @@ class User {
     
     function setUserStatus($user_status){
         $this->user_status = $user_status;
-    } */
+    } 
             
 
 }
