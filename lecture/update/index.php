@@ -9,14 +9,14 @@ include "../validator.php";
 
 // lecture_id boş gelmezse , lecture_name'i güncelleyelim
 $message = new Message();
-if(!empty($_GET["lecture_id"]) && !empty($_GET["lecture_name"])){
-    $lecture_id = input_validator($_GET["lecture_id"]);
-    $lecture_name = input_validator($_GET["lecture_name"]);
-    $lecture_code = input_validator($_GET["lecture_code"]);
+if(!empty($_POST["lecture_id"]) && !empty($_POST["lecture_name"]) && !empty($_POST["lecture_code"])){
+    $lecture_id = input_validator($_POST["lecture_id"]);
+    $lecture_name = input_validator($_POST["lecture_name"]);
+    $lecture_code = input_validator($_POST["lecture_code"]);
     $sql = "UPDATE lectures SET lecture_name='$lecture_name', lecture_code='$lecture_code' WHERE lecture_id=$lecture_id";
     // SQL kodu başarılı bir şekilde çalışırsa
     if($conn->query($sql)===TRUE){
-        $message->message = "lecture_id'si " . $lecture_id . " olan dersin adı " . $lecture_name . " kodu " . $lecture_code . " olarak güncellendi";
+        $message->message = "İlgili ders başarıyla güncellendi";
         $message->tf = true;
         echo json_encode($message);
     } else{
