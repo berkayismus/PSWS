@@ -8,5 +8,5 @@ PSWS, Temel CRUD işlemleri barındıran bir Restful API/web servistir.
 
 # Kullanılan Teknolojiler
 
-![PHP](https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/oqi2yrjph98suztrunye)
+![PHP](https://www.shareicon.net/data/256x256/2015/10/06/112719_development_512x512.png)
 ![MySQL](https://www.portakalyazilim.com.tr/images/uploads/Anasayfa/mysql-logo.png)
