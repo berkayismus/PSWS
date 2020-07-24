@@ -7,6 +7,7 @@ class User {
     public $user_password;
     public $user_email;
     public $user_status;
+    public $user_validate_code;
 
 
     
@@ -58,6 +59,14 @@ class User {
     
     function setUserStatus($user_status){
         $this->user_status = $user_status;
+    } 
+
+    function getUserValidateCode(){
+        return $this->user_validate_code;
+    }
+    
+    function setUserValidateCode($user_validate_code){
+        $this->user_validate_code = $user_validate_code;
     } 
             
 
