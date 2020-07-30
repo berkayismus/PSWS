@@ -22,8 +22,8 @@ if ($result->num_rows > 0) {
     $lecture_id = $row["lecture_id"];
     $questionObject = new Question($question_id,$question_question,$question_answers,$question_validate_answer,$lecture_id);
     $questionArray[] = $questionObject;
-    echo json_encode($questionArray);
   }
+  echo json_encode($questionArray);
 } else {
   $message->message = "Soru bulunamadı";
   $message->tf = false;
