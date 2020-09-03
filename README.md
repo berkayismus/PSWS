@@ -15,7 +15,12 @@ Uygulamayı **localhost**'unuzda deneyebilmeniz için aşağıdaki programların
 
 ![xampp start](https://www.linkpicture.com/q/Ekran-Al%C4%B1nt%C4%B1s%C4%B1_38.jpg)
 
-3 - Bu kadar, kurulumu tamamladınız!
+3 - Tarayıcınızı açın, adres çubuğuna **localhost/phpmyadmin** yazıp, enter'a basın.
+Sol taraftan **Yeni**'ye tıklayın. Veritabanı adı farketmeksizin bir veritabanı adı yazın, Karakter setini utf8_general_ci yapın ve oluşturun.  Ardından üst menüdeki **İçe aktar** kısmından aşağıdaki .sql dosyasını yükleyin;
+
+[SQL Dosyasını indir](https://drive.google.com/file/d/1epgkWYw9l06egS7li1iB43z5gm17ofw1/view?usp=sharing)
+
+4 - Bu kadar, kurulumu tamamladınız!
 
 # Kullanılan Teknolojiler
 
